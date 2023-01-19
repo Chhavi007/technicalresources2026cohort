@@ -1,0 +1,7 @@
+#Que6
+n=int(input("Enter a number:"))
+x=[]
+for i in str(n):
+    x.append(i)
+for i in x[::-1]:
+    print(i)
