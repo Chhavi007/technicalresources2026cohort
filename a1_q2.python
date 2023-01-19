@@ -1,0 +1,14 @@
+#Que2
+marks=float(input("Enter the marks:"))
+if marks>90:
+    print('Excellent')
+elif marks>80 and marks<=90:
+    print('Good')
+elif marks>70 and marks<=80:
+    print('Fair')
+elif marks>60 and marks<=70:
+    print('Meets expectations')
+elif marks<60:
+    print('Below par')
+else:
+    print('Wrong value entered')
