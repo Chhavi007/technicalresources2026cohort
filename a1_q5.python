@@ -1,0 +1,6 @@
+#Que5
+n=int(input("Enter a number:"))
+count=0
+for i in str(n):
+    count+=1
+print(count,"is the number of digits in",n)
